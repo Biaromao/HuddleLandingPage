@@ -5,23 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
 
-  Build The Community Your Fans Will Love
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+<body> 
 
-  Register
+  <nav>
+    <div class="nav-bar">
+
+      <img src="images/logo.svg" alt="">
+
+    </div>
+  </nav>
+
+  <div class="wrapper">
+
+    <div class="contents">
+      <img src="images/illustration-mockups.svg" alt="">
+      <div class="text">
+          <h1>Build The Community <br> Your Fans Will Love</h1> 
+          <br>
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+            Create connections with your users as you engage in genuine discussion</p>
+            <button class="btn">Register</button>
+             <!--Icons  -->
+             <div class="wrapper-icons">
+               <ion-icon name="logo-facebook" class="icon"></ion-icon>
+               <ion-icon name="logo-instagram" class="icon"></ion-icon>
+               <ion-icon name="logo-twitter" class="icon"></ion-icon>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <p class="attribution">
@@ -29,5 +47,7 @@
       Coded by <a href="#">Beatriz Romão</a>.
     </p>
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
